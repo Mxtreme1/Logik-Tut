@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.26)  30 OCT 2018 11:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.26)  6 NOV 2018 20:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1232,32 +1232,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--63
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--80
+Underfull \hbox (badness 10000) in paragraph at lines 68--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--80
+Underfull \hbox (badness 10000) in paragraph at lines 68--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--80
+Underfull \hbox (badness 10000) in paragraph at lines 68--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--80
+Underfull \hbox (badness 10000) in paragraph at lines 68--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--94
+Underfull \hbox (badness 10000) in paragraph at lines 79--88
 
  []
 
 
-Overfull \hbox (8.88261pt too wide) in paragraph at lines 66--96
+Overfull \hbox (8.88261pt too wide) in paragraph at lines 66--90
 [] [] 
  []
 
@@ -1268,253 +1268,253 @@ Package Fancyhdr Warning: \headheight is too small (17.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 97.
+(babel)             in language  on input line 91.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 97.
+(babel)             in language  on input line 91.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 97.
+(babel)             in language  on input line 91.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 97.
+(babel)             in language  on input line 91.
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 101--109
+Underfull \hbox (badness 10000) in paragraph at lines 95--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--109
+Underfull \hbox (badness 10000) in paragraph at lines 95--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--109
+Underfull \hbox (badness 10000) in paragraph at lines 95--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--119
+Underfull \hbox (badness 10000) in paragraph at lines 105--113
 
  []
 
 
-Overfull \hbox (8.88261pt too wide) in paragraph at lines 99--120
+Overfull \hbox (8.88261pt too wide) in paragraph at lines 93--114
 [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--137
+Underfull \hbox (badness 10000) in paragraph at lines 124--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--137
+Underfull \hbox (badness 10000) in paragraph at lines 124--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--145
+Underfull \hbox (badness 10000) in paragraph at lines 133--139
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 147.
+(babel)             in language  on input line 141.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 147.
+(babel)             in language  on input line 141.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 147.
+(babel)             in language  on input line 141.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 147.
+(babel)             in language  on input line 141.
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 152--165
+Underfull \hbox (badness 10000) in paragraph at lines 146--159
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--165
+Underfull \hbox (badness 10000) in paragraph at lines 146--159
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--169
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
 
  []
 
 <3-a-tree.png, id=30, 227.85126pt x 241.90375pt>
 File: 3-a-tree.png Graphic file (type png)
 <use 3-a-tree.png>
-Package pdftex.def Info: 3-a-tree.png  used on input line 176.
+Package pdftex.def Info: 3-a-tree.png  used on input line 170.
 (pdftex.def)             Requested size: 136.71179pt x 145.14336pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 181.
+(babel)             in language  on input line 175.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 181.
+(babel)             in language  on input line 175.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 181.
+(babel)             in language  on input line 175.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 181.
+(babel)             in language  on input line 175.
 [3 <./3-a-tree.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
 
  []
 
 <3-b-tree.png, id=37, 338.26375pt x 207.77625pt>
 File: 3-b-tree.png Graphic file (type png)
 <use 3-b-tree.png>
-Package pdftex.def Info: 3-b-tree.png  used on input line 191.
+Package pdftex.def Info: 3-b-tree.png  used on input line 185.
 (pdftex.def)             Requested size: 202.95981pt x 124.6667pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--201
+Underfull \hbox (badness 10000) in paragraph at lines 192--195
 
  []
 
 <3-c-tree.png, id=38, 357.335pt x 396.48125pt>
 File: 3-c-tree.png Graphic file (type png)
 <use 3-c-tree.png>
-Package pdftex.def Info: 3-c-tree.png  used on input line 204.
+Package pdftex.def Info: 3-c-tree.png  used on input line 198.
 (pdftex.def)             Requested size: 175.09567pt x 194.2775pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--210
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 210.
+(babel)             in language  on input line 204.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 210.
+(babel)             in language  on input line 204.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 210.
+(babel)             in language  on input line 204.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 210.
+(babel)             in language  on input line 204.
 [4 <./3-b-tree.png> <./3-c-tree.png>]
 <3-d-tree.png, id=47, 2698.08pt x 1525.7pt>
 File: 3-d-tree.png Graphic file (type png)
 <use 3-d-tree.png>
-Package pdftex.def Info: 3-d-tree.png  used on input line 216.
+Package pdftex.def Info: 3-d-tree.png  used on input line 210.
 (pdftex.def)             Requested size: 674.51836pt x 381.42407pt.
 
-Overfull \hbox (256.2628pt too wide) in paragraph at lines 216--217
+Overfull \hbox (256.2628pt too wide) in paragraph at lines 210--211
  [][] 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 221.
+(babel)             in language  on input line 215.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 221.
+(babel)             in language  on input line 215.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 221.
+(babel)             in language  on input line 215.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 221.
+(babel)             in language  on input line 215.
 [5 <./3-d-tree.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 223--224
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
 
  []
 
 <3-e-tree.png, id=55, 2698.08pt x 1525.7pt>
 File: 3-e-tree.png Graphic file (type png)
 <use 3-e-tree.png>
-Package pdftex.def Info: 3-e-tree.png  used on input line 231.
+Package pdftex.def Info: 3-e-tree.png  used on input line 225.
 (pdftex.def)             Requested size: 674.51836pt x 381.42407pt.
 
-Overfull \hbox (256.2628pt too wide) in paragraph at lines 231--232
+Overfull \hbox (256.2628pt too wide) in paragraph at lines 225--226
  [][] 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 237.
+(babel)             in language  on input line 231.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 237.
+(babel)             in language  on input line 231.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 237.
+(babel)             in language  on input line 231.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 237.
+(babel)             in language  on input line 231.
 [6 <./3-e-tree.png>]
-LaTeX Font Info:    Try loading font information for U+euf on input line 244.
+LaTeX Font Info:    Try loading font information for U+euf on input line 238.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 )
-Underfull \hbox (badness 10000) in paragraph at lines 243--248
+Underfull \hbox (badness 10000) in paragraph at lines 237--242
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--254
+Underfull \hbox (badness 10000) in paragraph at lines 242--248
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--254
+Underfull \hbox (badness 10000) in paragraph at lines 242--248
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--254
+Underfull \hbox (badness 10000) in paragraph at lines 242--248
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--265
+Underfull \hbox (badness 10000) in paragraph at lines 248--259
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--265
+Underfull \hbox (badness 10000) in paragraph at lines 248--259
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--265
+Underfull \hbox (badness 10000) in paragraph at lines 248--259
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 266.
+(babel)             in language  on input line 260.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 266.
+(babel)             in language  on input line 260.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 266.
+(babel)             in language  on input line 260.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 266.
+(babel)             in language  on input line 260.
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 268--281
+Underfull \hbox (badness 10000) in paragraph at lines 262--275
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--281
+Underfull \hbox (badness 10000) in paragraph at lines 262--275
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--287
+Underfull \hbox (badness 10000) in paragraph at lines 277--281
 
  []
 
 <Def-Einbettung.png, id=72, 783.92876pt x 216.81pt>
 File: Def-Einbettung.png Graphic file (type png)
 <use Def-Einbettung.png>
-Package pdftex.def Info: Def-Einbettung.png  used on input line 290.
+Package pdftex.def Info: Def-Einbettung.png  used on input line 284.
 (pdftex.def)             Requested size: 470.36089pt x 130.08699pt.
 
-Overfull \hbox (52.10533pt too wide) in paragraph at lines 290--291
+Overfull \hbox (52.10533pt too wide) in paragraph at lines 284--285
  [][] 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 295.
+(babel)             in language  on input line 289.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 295.
+(babel)             in language  on input line 289.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 295.
+(babel)             in language  on input line 289.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 295.
+(babel)             in language  on input line 289.
 [8 <./Def-Einbettung.png>]
-LaTeX Font Info:    Try loading font information for U+dsrom on input line 299.
+LaTeX Font Info:    Try loading font information for U+dsrom on input line 293.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/doublestroke/Udsrom.fd
@@ -1527,105 +1527,105 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.314 ... weiteren Eigenschaften, da die \mathfrak
+l.308 ... weiteren Eigenschaften, da die \mathfrak
                                                   {L}-Struktur weder Konstan...
 
 ? 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--316
+Underfull \hbox (badness 10000) in paragraph at lines 292--310
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--316
+Underfull \hbox (badness 10000) in paragraph at lines 292--310
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--316
+Underfull \hbox (badness 10000) in paragraph at lines 292--310
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--316
+Underfull \hbox (badness 10000) in paragraph at lines 292--310
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--316
+Underfull \hbox (badness 10000) in paragraph at lines 292--310
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--326
+Underfull \hbox (badness 10000) in paragraph at lines 311--320
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--326
+Underfull \hbox (badness 10000) in paragraph at lines 311--320
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--326
+Underfull \hbox (badness 10000) in paragraph at lines 311--320
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--336
+Underfull \hbox (badness 10000) in paragraph at lines 325--330
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 339.
+(babel)             in language  on input line 333.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 339.
+(babel)             in language  on input line 333.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 339.
+(babel)             in language  on input line 333.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 339.
+(babel)             in language  on input line 333.
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 343--345
+Underfull \hbox (badness 10000) in paragraph at lines 337--339
 
  []
 
 <Baumkalkuel.png, id=84, 690.58pt x 182.6825pt>
 File: Baumkalkuel.png Graphic file (type png)
 <use Baumkalkuel.png>
-Package pdftex.def Info: Baumkalkuel.png  used on input line 351.
+Package pdftex.def Info: Baumkalkuel.png  used on input line 345.
 (pdftex.def)             Requested size: 414.3512pt x 109.61034pt.
 <Baumkalkuel-2.png, id=85, 697.60625pt x 509.905pt>
 File: Baumkalkuel-2.png Graphic file (type png)
 <use Baumkalkuel-2.png>
-Package pdftex.def Info: Baumkalkuel-2.png  used on input line 360.
+Package pdftex.def Info: Baumkalkuel-2.png  used on input line 354.
 (pdftex.def)             Requested size: 334.60237pt x 202.57344pt.
 
 AED: lastpage setting LastPage
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 365.
+(babel)             in language  on input line 359.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 365.
+(babel)             in language  on input line 359.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 365.
+(babel)             in language  on input line 359.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 365.
+(babel)             in language  on input line 359.
 [10 <./Baumkalkuel.png> <./Baumkalkuel-2.png>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 365.
+(babel)             in language  on input line 359.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 365.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 365.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 365.
+(babel)             in language  on input line 359.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 359.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 359.
  (./solution-1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 365.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 365.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 359.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 359.
 Package rerunfilecheck Info: File `solution-1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 365.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 359.
  ) 
 Here is how much of TeX's memory you used:
  21048 strings out of 492982
@@ -1647,7 +1647,7 @@ euler/eufm7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></us
 r/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/
 type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-supe
 r/sfsx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on solution-1.pdf (10 pages, 5222760 bytes).
+Output written on solution-1.pdf (10 pages, 5222670 bytes).
 PDF statistics:
  144 PDF objects out of 1000 (max. 8388607)
  107 compressed objects within 2 object streams

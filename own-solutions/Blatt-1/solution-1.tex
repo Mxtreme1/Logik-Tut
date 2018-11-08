@@ -73,10 +73,7 @@ Vorgehensweise:\\
             $\sim ((P \land \neg Q) \lor (\neg Q \lor \neg R))$\\
             \\
             \\
-            $\sim ((P \lor (\neg Q \lor \neg R)) \land (\neg Q \lor (\neg Q \lor \neg R)))$\\
-            $\sim ((P \lor (\neg Q \lor \neg R)) \land (\neg Q \lor \neg Q \lor \neg R))$\\
-            $\sim ((P \lor \neg Q \lor \neg R) \land (\neg Q \lor \neg Q \lor \neg R))$\\
-            $\sim ((P \lor \neg Q \lor \neg R) \land (\neg Q \lor \neg R))$\\
+            $\sim (\neg Q \lor \neg R)$\\
         \end{minipage}
         \begin{minipage}[t]{0.4\textwidth}
             Operationen:\\
@@ -87,10 +84,7 @@ Vorgehensweise:\\
             Distributivgesetze\\
             (Hier bereits in DNF\\
             Außen: $\lor$, Innen: $\land$)\\
-            Klammern weglassen\\
-            Klammern weglassen\\
-            Vereinfachen\\
-            KNF
+            KNF und DNF
 
         \end{minipage}
 
@@ -104,7 +98,7 @@ Vorgehensweise:\\
             $\sim (\neg (P \land Q) \lor (\neg P \lor \neg (Q \lor R)))$\\
             $\sim ((\neg P \lor \neg Q) \lor (\neg P \lor (\neg Q \land \neg R)))$\\
             \\
-            $\sim ((\neg P \lor \neg Q) \lor (\neg P \lor \neg Q \land (\neg P \lor \neg R)))$\\
+            $\sim ((\neg P \lor \neg Q) \lor ((\neg P \lor \neg Q) \land (\neg P \lor \neg R)))$\\
             $\sim (\neg P \lor \neg Q)$\\
         \end{minipage}
         \begin{minipage}[t]{0.4\textwidth}
