@@ -51,13 +51,46 @@ Als generelle Lektüre kann ich nur das Skript von Markus Junker aus dem WS 17/1
 \url{http://home.mathematik.uni-freiburg.de/junker/skripte/InfoLogik.pdf}\\
 Hier ist vieles sehr genau und verständlich erklärt.
 
-\section*{Aufgabe 1}%
+\section*{}%
 \label{sec:aufgabe_1}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.6]{./A-1.png}
+        \label{fig:}
+    \end{figure} 
+
+    \begin{itemize}
+        \item i) $\mathfrak{A}_1 = (\mathds{R}, \emptyset)$\\
+            Die einzigen Terme sind die Variablen, also Elemente aus $\mathds{R}$\\
+            Für n Variablen sind die möglichen induzierten Funktionen:\\
+            \\$f_i^{\mathfrak{A}_1}: \mathds{R}^n \rightarrow \mathds{R}, (x_1,\dots,x_n) \mapsto x_i$\\
+
+        \item ii) $\mathfrak{A}_2 = (\mathds{R}, \{1, +, -\})$\\
+            Wieder hat man die Variablen als Terme, nun kommen jedoch noch die Terme aus den Funktionen hinzu,
+            also von +,- und 1.\\
+            Weiter sind die induzierten Funktionen:\\
+            \\$f_i^{\mathfrak{A}_2}: \mathds{R}^n \rightarrow \mathds{R}, (x_1,\dots,x_n) \mapsto x_i$\\
+            $1^{\mathfrak{A}_2}: \mathds{R}^n \rightarrow \mathds{R}, (x_1,\dots,x_n) \mapsto 1$\\
+            $c^{\mathfrak{A}_2}: \mathds{R}^n \rightarrow \mathds{R}, (x_1,\dots,x_n) \mapsto z_0 + \sum^{n}_{i=1} z_i \cdot x_i, z_i \in \mathds{Z}$\\
+
+        \item iii) $\mathfrak{A}_3 = (\mathds{R}, \{+, -, \cdot\})$\\
+            Auch hier die Variablen als Terme, sowie die von +, - und $\cdot$.\\
+            Die induzierten Funktionen sind:\\
+            \\$f_i^{\mathfrak{A}_3}: \mathds{R}^n \rightarrow \mathds{R}, (x_1,\dots,x_n) \mapsto x_i$\\
+            $c^{\mathfrak{A}_3}: \mathds{R}^n \rightarrow \mathds{R}, (x_1,\dots,x_n) \mapsto \sum^{e}_{i=1} z_i \cdot x_1^{p_1,i} \cdot ... \cdot x_n^{p_n,i}$,\\
+            wobei gilt: $z_i \in \mathds{Z}, p_{j,i} \in \mathds{N}, p_{j,i} = 0 \text{,     } \forall 1 \leq j \leq n \Rightarrow z_i = 0$ und e endlich.\\
+    \end{itemize}
 
 
-
-\section*{Aufgabe 2}%
+\section*{}%
 \label{sec:aufgabe_2}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.6]{./A-2.png}
+    \label{fig:}
+\end{figure}
+
 \begin{itemize}
     \item a)\\
         Da wir keine Funktionen haben ist $\mathds{N}$ selbst die kleinste Unterstruktur von $\mathds{R}$, die $\mathds{N}$ in ihrem Universum enthält.
@@ -84,8 +117,14 @@ Hier ist vieles sehr genau und verständlich erklärt.
 
 \end{itemize}
 
-\section*{Aufgabe 3}%
+\section*{}%
 \label{sec:aufgabe_3}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.6]{./A-3.png}
+    \label{fig:}
+\end{figure}
 
     \begin{itemize}
         \item a)\\
@@ -131,8 +170,16 @@ Hier ist vieles sehr genau und verständlich erklärt.
 
     \end{itemize}
 
-\section*{Aufgabe 4}%
+\newpage
+
+\section*{}%
 \label{sec:aufgabe_4}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.6]{./A-4.png}
+    \label{fig:}
+\end{figure}
 
     \begin{itemize}
         \item a)\\
@@ -186,6 +233,17 @@ Hier ist vieles sehr genau und verständlich erklärt.
             \\Damit ist $Id_{V'}$ keine Einbettung, also ist $\mathfrak{A}$ keine Unterstruktur von $\mathfrak{B}$.
         
     \end{itemize}
+
+\section*{Anmerkung zu 2,3,4}%
+\label{sec:anmerkung_zu_2,3,4}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.6]{./Unterstruktur.png}
+        \caption{Bedingungen Unterstruktur, Isomorphie, Einbettung}
+        \label{fig:}
+    \end{figure}
+
 
 
 
