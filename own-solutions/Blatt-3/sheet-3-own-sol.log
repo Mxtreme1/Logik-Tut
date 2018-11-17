@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.26)  14 NOV 2018 15:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.26)  17 NOV 2018 20:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Blatt-2-own-sol.tex
-(./Blatt-2-own-sol.tex
+**sheet-3-own-sol.tex
+(./sheet-3-own-sol.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -1103,16 +1103,7 @@ l.35 }
 l.35 }
       
 ? 
-(./Blatt-2-own-sol.aux
-
-LaTeX Warning: Label `fig:' multiply defined.
-
-
-LaTeX Warning: Label `fig:' multiply defined.
-
-
-LaTeX Warning: Label `fig:' multiply defined.
-
+(./sheet-3-own-sol.aux
 
 LaTeX Warning: Label `fig:' multiply defined.
 
@@ -1123,7 +1114,7 @@ LaTeX Warning: Label `fig:' multiply defined.
 LaTeX Warning: Label `fig:' multiply defined.
 
 )
-\openout1 = `Blatt-2-own-sol.aux'.
+\openout1 = `sheet-3-own-sol.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
@@ -1188,9 +1179,9 @@ LaTeX Info: Redefining \ref on input line 44.
 LaTeX Info: Redefining \pageref on input line 44.
 LaTeX Info: Redefining \nameref on input line 44.
 
-(./Blatt-2-own-sol.out) (./Blatt-2-own-sol.out)
+(./sheet-3-own-sol.out) (./sheet-3-own-sol.out)
 \@outlinefile=\write4
-\openout4 = `Blatt-2-own-sol.out'.
+\openout4 = `sheet-3-own-sol.out'.
 
 LaTeX Font Info:    Try loading font information for T1+cmss on input line 45.
 
@@ -1220,69 +1211,49 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 51.
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-<./A-1.png, id=8, 804.00375pt x 97.36375pt>
+<./A-1.png, id=8, 798.985pt x 120.45pt>
 File: ./A-1.png Graphic file (type png)
 <use ./A-1.png>
 Package pdftex.def Info: ./A-1.png  used on input line 58.
-(pdftex.def)             Requested size: 482.40598pt x 58.41869pt.
+(pdftex.def)             Requested size: 479.3947pt x 72.27054pt.
 
-Overfull \hbox (64.15042pt too wide) in paragraph at lines 58--60
+Overfull \hbox (61.13914pt too wide) in paragraph at lines 58--60
  [][] 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 63.
+<./A-2.png, id=9, 805.0075pt x 247.92625pt>
+File: ./A-2.png Graphic file (type png)
+<use ./A-2.png>
+Package pdftex.def Info: ./A-2.png  used on input line 69.
+(pdftex.def)             Requested size: 483.00824pt x 148.7569pt.
+
+Overfull \hbox (64.75269pt too wide) in paragraph at lines 69--71
+ [][] 
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 76.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 63.
-LaTeX Font Info:    Try loading font information for U+euf on input line 63.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd
-File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-)
-LaTeX Font Info:    Try loading font information for U+dsrom on input line 63.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 76.
+LaTeX Font Info:    Try loading font information for U+dsrom on input line 78.
 
 (/usr/share/texlive/texmf-dist/tex/latex/doublestroke/Udsrom.fd
 File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 63--67
+Underfull \hbox (badness 10000) in paragraph at lines 76--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--67
+Underfull \hbox (badness 10000) in paragraph at lines 76--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--75
+Underfull \hbox (badness 10000) in paragraph at lines 76--86
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--82
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--82
-
- []
-
-<./A-2.png, id=9, 806.01125pt x 145.54375pt>
-File: ./A-2.png Graphic file (type png)
-<use ./A-2.png>
-Package pdftex.def Info: ./A-2.png  used on input line 90.
-(pdftex.def)             Requested size: 483.61047pt x 87.3269pt.
-
-Overfull \hbox (65.35492pt too wide) in paragraph at lines 90--92
- [][] 
  []
 
 
@@ -1292,326 +1263,96 @@ Package Fancyhdr Warning: \headheight is too small (17.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 93.
+(babel)             in language  on input line 86.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 93.
+(babel)             in language  on input line 86.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 93.
+(babel)             in language  on input line 86.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 93.
+(babel)             in language  on input line 86.
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
- <./A-1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 95--101
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 95--101
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
-
- []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.108         \\D
-                 es Weiteren ist $\mathds{N}$ nicht endlich und $<\mathds{N}...
-
-? 
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--117
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--117
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--117
-
- []
-
-<./A-3.png, id=30, 822.07124pt x 315.1775pt>
+ <./A-1.png> <./A-2.png>]
+<./A-3.png, id=30, 838.13126pt x 469.755pt>
 File: ./A-3.png Graphic file (type png)
 <use ./A-3.png>
-Package pdftex.def Info: ./A-3.png  used on input line 125.
-(pdftex.def)             Requested size: 493.24655pt x 189.10796pt.
+Package pdftex.def Info: ./A-3.png  used on input line 94.
+(pdftex.def)             Requested size: 502.88263pt x 281.85518pt.
 
-Overfull \hbox (74.991pt too wide) in paragraph at lines 125--127
+Overfull \hbox (84.62708pt too wide) in paragraph at lines 94--96
  [][] 
  []
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 128.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 128.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 128.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 128.
-[2 <./A-2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 130--136
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--136
-
- []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.137             \\F
-                      ist offensichtlich bijektiv, daher müssen wir nur noc...
-
-? 
-
-! LaTeX Error: \mathscr allowed only in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.137 ...müssen wir nur noch den starken \mathscr
-                                                  {L}-Hom. zeigen:\\
-? 
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--156
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--156
-
- []
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 156.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 156.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 156.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 156.
-[3 <./A-3.png>]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.157             \\V
-                     eranschaulicht:\\
-? 
-<./3-b-drawing.pdf, id=45, 762.85pt x 248.93pt>
-File: ./3-b-drawing.pdf Graphic file (type pdf)
-<use ./3-b-drawing.pdf>
-Package pdftex.def Info: ./3-b-drawing.pdf  used on input line 160.
-(pdftex.def)             Requested size: 228.85677pt x 74.67957pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 157--163
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--170
-
- []
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 173.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 173.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 173.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 173.
-[4 <./3-b-drawing.pdf>]
-<./A-4.png, id=69, 805.0075pt x 227.85126pt>
+<./A-4.png, id=31, 800.9925pt x 363.3575pt>
 File: ./A-4.png Graphic file (type png)
 <use ./A-4.png>
-Package pdftex.def Info: ./A-4.png  used on input line 180.
-(pdftex.def)             Requested size: 483.00824pt x 136.71179pt.
+Package pdftex.def Info: ./A-4.png  used on input line 103.
+(pdftex.def)             Requested size: 480.5992pt x 218.01617pt.
 
-Overfull \hbox (64.75269pt too wide) in paragraph at lines 180--182
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 190--199
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 190--199
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 190--199
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 190--199
-
- []
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 200.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 200.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 200.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 200.
-[5 <./A-4.png>]
-<./4-c-drawing-B.pdf, id=75, 345.29pt x 109.40875pt>
-File: ./4-c-drawing-B.pdf Graphic file (type pdf)
-<use ./4-c-drawing-B.pdf>
-Package pdftex.def Info: ./4-c-drawing-B.pdf  used on input line 209.
-(pdftex.def)             Requested size: 103.58778pt x 32.82286pt.
-<./4-c-drawing-A.pdf, id=76, 345.29pt x 109.40875pt>
-File: ./4-c-drawing-A.pdf Graphic file (type pdf)
-<use ./4-c-drawing-A.pdf>
-Package pdftex.def Info: ./4-c-drawing-A.pdf  used on input line 222.
-(pdftex.def)             Requested size: 103.58778pt x 32.82286pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 231--234
-
- []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.235             \\F
-                     ür das Relationszeichen R aus unserer Sprache gilt jed...
-
-? 
-
-Underfull \hbox (badness 10000) in paragraph at lines 235--237
-
- []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.238             \\D
-                     amit ist $Id_{V'}$ keine Einbettung, also ist $\mathfra...
-
-? 
-<./Unterstruktur.png, id=77, 825.0825pt x 467.7475pt>
-File: ./Unterstruktur.png Graphic file (type png)
-<use ./Unterstruktur.png>
-Package pdftex.def Info: ./Unterstruktur.png  used on input line 247.
-(pdftex.def)             Requested size: 495.05333pt x 280.65065pt.
-
-Overfull \hbox (76.79778pt too wide) in paragraph at lines 247--248
+Overfull \hbox (62.34364pt too wide) in paragraph at lines 103--105
  [][] 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 251.
+(babel)             in language  on input line 106.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 251.
+(babel)             in language  on input line 106.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 251.
+(babel)             in language  on input line 106.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 251.
-[6 <./4-c-drawing-B.pdf> <./4-c-drawing-A.pdf>]
-
+(babel)             in language  on input line 106.
+[2 <./A-3.png>] 
 AED: lastpage setting LastPage
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 255.
+(babel)             in language  on input line 107.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 255.
+(babel)             in language  on input line 107.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 255.
+(babel)             in language  on input line 107.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 255.
-[7 <./Unterstruktur.png>]
+(babel)             in language  on input line 107.
+[3 <./A-4.png>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 255.
+(babel)             in language  on input line 107.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 255.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 255.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 255.
- (./Blatt-2-own-sol.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 255.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 255.
-Package rerunfilecheck Info: File `Blatt-2-own-sol.out' has not changed.
+(babel)             in language  on input line 107.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 107.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 107.
+ (./sheet-3-own-sol.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 107.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 107.
+Package rerunfilecheck Info: File `sheet-3-own-sol.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 255.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 107.
  ) 
 Here is how much of TeX's memory you used:
- 21064 strings out of 492982
- 401825 string characters out of 6134895
- 563265 words of memory out of 5000000
- 24206 multiletter control sequences out of 15000+600000
- 16320 words of font info for 50 fonts, out of 8000000 for 9000
+ 21003 strings out of 492982
+ 400755 string characters out of 6134895
+ 561137 words of memory out of 5000000
+ 24166 multiletter control sequences out of 15000+600000
+ 13299 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,11n,66p,8826b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,11n,66p,8826b,445s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/doublestroke/dsrom10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/share/texmf/fonts/type1
-/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfr
-m0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/shar
-e/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf/fonts/type1/
-public/cm-super/sftt1095.pfb>
-Output written on Blatt-2-own-sol.pdf (7 pages, 378234 bytes).
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/doublestroke/ds
+rom10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></u
+sr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts
+/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf/fonts/type1/public/cm-sup
+er/sftt1095.pfb>
+Output written on sheet-3-own-sol.pdf (3 pages, 269919 bytes).
 PDF statistics:
- 188 PDF objects out of 1000 (max. 8388607)
- 149 compressed objects within 2 object streams
- 18 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 85 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
+ 9 named destinations out of 1000 (max. 500000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

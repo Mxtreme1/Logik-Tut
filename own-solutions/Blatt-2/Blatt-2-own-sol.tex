@@ -162,8 +162,8 @@ Hier ist vieles sehr genau und verständlich erklärt.
                 \label{fig:name}
             \end{figure}
 
-            $4 < 5 \Rightarrow F(5) <^{\mathscr{Z'}_2} F(4) \Rightarrow -3 < F(4) \Rightarrow F(4) \in \{-2,-1,...\}$\\
-            $0 < 4 \Rightarrow F(4) <^{\mathscr{Z'}_2} F(0) \Rightarrow F(4) < 0 \Rightarrow F(4) \in \{-1,-2,...\}$\\
+            $4 < 5 \Rightarrow F(5) <^{\mathscr{Z'}_1} F(4) \Rightarrow -3 < F(4) \Rightarrow F(4) \in \{-2,-1,...\}$\\
+            $0 < 4 \Rightarrow F(4) <^{\mathscr{Z'}_1} F(0) \Rightarrow F(4) < 0 \Rightarrow F(4) \in \{-1,-2,...\}$\\
             $\Rightarrow F(4) \in \{-2,-1\}$\\
             \\Das gilt analog aber auch für 3,2,1 und damit ist F nicht mehr injektiv, da 4 Zahlen auf 2 abgebildet werden müssen.
             Widerspruch!
@@ -184,15 +184,20 @@ Hier ist vieles sehr genau und verständlich erklärt.
     \begin{itemize}
         \item a)\\
             Wenn der Graph G = (V,E) ist, dann wählen wir für unsere \{R\}-Struktur $\mathfrak{G}$ das Universum V und alle Kanten aus E sind in $R^{\mathfrak{G}}$.\\
+            $E = \{\{x,y\} \subset V| |\{x,y\}| = 2\}$\\
+            $\Rightarrow R^\mathfrak{A} = \{(a,b) \in e \times e | \forall e \in E, a \neq b\}$
 
         \item b)\\
             \underline{ZZ:} Sei $\mathfrak{G} = (V, \{R\}) \mathscr{L}$-Struktur des Graphen G und $\mathfrak{G'} = (V', \{R\})$ Unterstruktur, dann folgt G' ist Teilgraph von G.\\
             \\\underline{Bew:}\\
                 Da $\mathfrak{G'} \subset \mathfrak{G}$ folgt auch $V' \subset V$.\\
-                Weiters muss $Id_{V'}: V' \rightarrow V$ Einbettung sein,\\
+                \\Weiters muss $Id_{V'}: V' \rightarrow V$ Einbettung sein,\\
                 also gilt für alle $(x,y) \in R^\mathfrak{G'} \Leftrightarrow  (Id_{V'}(x), Id_{V'}(y)) = (x,y) \in R^\mathfrak{G}$\\
-                Es gilt $E' = \{\{x,y\} | x,y \in V', (x,y) \in R^{\mathfrak{G'}}\}$\\
+                \\Es gilt $E' = \{\{x,y\} | x,y \in V', (x,y) \in R^{\mathfrak{G'}}\}$\\
                 und damit aufgrund von $R^{\mathfrak{G'}} \subset R^{\mathfrak{G}}$ auch $E' \subset E$.\\
+                \\Aus $V' \subset V$ und $E' \subset E$ folt G' ist Teilgraph von G nach Def.
+
+\newpage
 
         \item c)\\
             Gegenbeispiel:\\
