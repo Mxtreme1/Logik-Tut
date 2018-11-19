@@ -53,11 +53,39 @@ Hier ist vieles sehr genau und verständlich erklärt.
 
 \section*{}%
 \label{sec:aufgabe_1}
+
+    Siehe auch 
+
     \begin{figure}[H]
         \centering
         \includegraphics[scale=0.6]{./A-1.png}
         \label{fig:}
     \end{figure} 
+
+    \underline{Beweis:}\\
+    Wir sollen zeigen, dass es ein nicht leeres Back and Forth System gibt, also müssen wir uns zuerst eines aussuchen.\\
+    \\Hierfür empfiehlt es sich zuerst mit folgendem S anzufangen:\\
+    $S = \{F: \mathfrak{C} \rightarrow \mathfrak{D} \mathscr{L}-Isomorphismus| \mathfrak{C} \subset \mathfrak{A}, \mathfrak{D} \subset \mathfrak{B},
+    \text{ wobei  }\mathfrak{C}, \mathfrak{D} \text{ endlich erzeugt}\}$ ist.\\
+    Mit $\mathfrak{C} \subset \mathfrak{A}$ ist gemeint, dass $\mathfrak{C}$ Unterstruktur von $\mathfrak{A}$ ist.\\
+
+    \\Zeigen wir also nun, dass S ein nichtleeres Back and Forth System ist. 
+
+    \begin{itemize}
+        \item S ist nichtleer\\
+            Sei gegeben: $\mathfrak{C} = (\{c\}, \{E^\mathfrak{C}\}), \mathfrak{D} = (\{d\}, \{E^\mathfrak{D}\})$\\
+            \\Dann gilt, dass $F: \{c\} \rightarrow \{d\}, c \mapsto d$ Isomorphismus ist
+            \\(Die von \{c\} und \{d\} erzeugten Mengen sind wieder \{c\} bzw. \{d\} und offensichtlich endlich erzeugt),\\
+            da F klar bijektiv und E in beiden Strukturen Äquivalenzerelartion ist, womit F auch starker $\mathscr{L}$-Hom. ist.\\
+
+        \item S ist Back & Forth System\\
+            \begin{itemize}
+                \item Back:\\
+                    
+
+            \end{itemize}
+    \end{itemize}
+    
 
 
 
@@ -106,6 +134,54 @@ Hier ist vieles sehr genau und verständlich erklärt.
         \includegraphics[scale=0.6]{./A-4.png}
         \label{fig:}
     \end{figure}
+
+
+\section*{Aufbau Back \& Forth}%
+\label{sec:aufbau_back_forth}
+    Das finden eines nichtleeren Back \& Forth Systems S wird dazu genutzt, um zu zeigen, dass zwei Strukturen elementar äquivalent sind.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.6]{./B&F-EA.png}
+        \label{fig:}
+    \end{figure}
+
+    Das heißt, wenn eine eine partielle elementare Abbildung von der einen in die andere Struktur existiert:
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.3]{./B&F-PEA.png}
+        \label{fig:}
+    \end{figure}
+
+    Was wiederum der fall ist, wenn folgendes gilt:
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.3]{./B&F-E.png}
+        \label{fig:}
+    \end{figure}
+
+    Also suchen wir stets (falls nicht gegeben) eine Kollektion S mit den Eigenschaften:\\
+
+    $S = \{F: \mathfrak{C} \rightarrow \mathfrak{D} \mathscr{L}-Isomorphismus| \mathfrak{C} \subset \mathfrak{A}, \mathfrak{D} \subset \mathfrak{B},
+    \text{ wobei  }\mathfrak{C}, \mathfrak{D} \text{ endlich erzeugt}\}$ ist.\\
+    Mit $\mathfrak{C} \subset \mathfrak{A}$ ist gemeint, dass $\mathfrak{C}$ Unterstruktur von $\mathfrak{A}$ ist.\\
+
+    Falls dieses S kein nichtleers Back \& Forth System ist, können wir ein weiter eingeschränktes S suchen.\\
+    Hier hängt die Einschränkung vom konkreten Fall ab, schaut einfach, wo das Problem für euer erstes S lag.\\
+    Es kann natürlich aus sein, dass keins existiert, wenn dies der Fall ist seht ihr das aber in der Regel schnell.\\
+
+    Habt ihr ein S, dann zeigt die nötigen Eigenschaften:\\
+    \begin{itemize}
+        \item S ist nichtleer\\
+        \item S ist Back \& Forth System\\
+            \framebox{Back:}\\
+                Sei $F \in S$, also F bildet von C nach D isomorph ab und gelte $d \in D\backslash Im(F)$.\\
+                Dann muss für dieses beliebige c gelten, dass ein F' existiert mit:\\
+                \\$F': C\cup \{c\} \rightarrow D \cup \{d\} $
+    \end{itemize}
+
+
 
 \end{document}
 
