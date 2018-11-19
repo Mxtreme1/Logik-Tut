@@ -112,7 +112,10 @@ Hier ist vieles sehr genau und verständlich erklärt.
         \label{fig:}
     \end{figure}
 
-    Eine Theorie ist eine Menge T von $\mathscr{L}$-Aussagen.
+    Eine Theorie ist eine Menge T von $\mathscr{L}$-Aussagen.\\
+    Eine $\mathscr{L}$-Aussage wiederum ist eine Formel ohne freie Variablen,\\
+    das heißt entweder gibt es keine Individuenvariablen oder sie sind im Wirkungsbereich
+    eines Quantors.\\
 
     \begin{itemize}
         \item a)\\
@@ -127,6 +130,38 @@ Hier ist vieles sehr genau und verständlich erklärt.
             \\Aus $T = A_1 \cup A_2$ folgt, dass unendlich viele Elemente in P sind und unendlich viele es nicht sind.\\
 
         \item b)\\
+            Zunächst die Aussagen für eine Äquivalenzerelation:\\
+            $A_{reflexif} = \{\forall x (E(x,x))\}$\\
+            $A_{symmetrisch} = \{\forall x \forall y (E(x,y) \rightarrow E(y,x))\}$\\
+            $A_{transitiv} = \{\forall x \forall y \forall z ((E(x,y) \land E(y,z)) \rightarrow E(x,z))\}$\\
+            \\Und nun die für die n-elementigen Äquivalenzklassen $\forall n \in \mathds{N}$:\\
+            $A_n = \{\forall x_1,...,\forall x_n,\forall a (\bigwedge_{i \neq j} (\neg x_1 \doteq x_j)  \land E(x_i,x_j) \land (\neg a \doteq x_i) \land \neg E(a, x_i))\}$\\
+            \\Auf deutsch:\\
+            Es gibt n verschiedene Elemente der Form $x_i$.\\
+            Alle $x_i$ sind in einer Relation miteinander.\\
+            Es gibt ein a, dass von allen $x_i$ verschieden ist.\\
+            a steht mit keinem $x_i$ in Relation.\\
+            \\Daraus folt in $A_i$ gibt es \underline{genau} i verschiedene Elemente,
+            \\die in Relation zu einander stehen keines mehr keines weniger.\\
+
+            \\Mit $T = A_{reflexif} \cup A_{symmetrisch} \cup A_{transitiv} \cup A_i, \forall i \in \mathds{N}$ besitzt T genau die nötigen Eigenschaften.\\
+
+        \item c)\\
+            Bei diesem Back \& Forth System haben wir ein S gegeben:\\
+            S = \{partieller Iso. mit endl. erz. Unterstrukturen wie in b)\} und sollen zeigen,\\
+            dass es kein nichtleeres B \& F System gibt.\\
+
+           \\\underline{Beweis:}\\
+            Angenommen $\mathfrak{A}, \mathfrak{B}$ sind Strukturen wie in b) beschrieben, also $\mathfrak{A}, \mathfrak{B} \models T_{b)}$\\
+            Und sei F bereits folgendermaßen: F(a) = b, wobei die Äquivalenzklasse von a \{a,a'\} und die von b \{b\} ist.\\
+
+            \\Forth würde nun versuchen ein passendes $b' \in B$ für a' zu finden, sodass die Isomorphie erhalten bleibt, also (u.a.) gilt:\\
+            $(a, a') \in E^{\mathfrak{A}} \Leftrightarrow (F(a),F(a')) = (b, b') \in E^{\mathfrak{B}}$.\\
+            Es gibt aber nur dieses eine b in der Äquivalenzklasse und für eine Isomorphie muss Injektivität gelten.\\
+            \\$\Rightarrow$ Es gibt also kein F', dass auch a' entsprechend abbildet und in S liegt.\\
+            $\Rightarrow$ S ist nicht Back \& Forth System (S ist trotzdem nichtleer).
+
+
 
     \end{itemize}
 
@@ -192,7 +227,7 @@ Hier ist vieles sehr genau und verständlich erklärt.
             \begin{itemize}
                 \item \framebox{Back:}\\
                     Sei $F \in S$, also F bildet von C nach D isomorph ab und gelte $b \in B\backslash Im(F)$.\\
-                    Dann muss für dieses beliebige b gelten, dass ein $a \in A\backslash Dom(F)$ und damit ein F' existiert mit:\\
+                    Dann muss für dieses beliebige b gelten, dass ein $a \in A\backslash Dom(F)$ und damit ein F'$ existiert mit:\\
                     \\$F': A\cup \{a\} \rightarrow B \cup \{b\} $,\\
                     \\also ein F'(a) = b, welches nur für a anders abbildet und die Isomorphie-\\Eigenschaften erhält.\\
                     Wenn b also mit x in einer Relation war,\\
