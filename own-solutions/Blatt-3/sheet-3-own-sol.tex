@@ -54,13 +54,13 @@ Hier ist vieles sehr genau und verständlich erklärt.
 \section*{}%
 \label{sec:aufgabe_1}
 
-    Siehe auch 
-
     \begin{figure}[H]
         \centering
         \includegraphics[scale=0.6]{./A-1.png}
         \label{fig:}
     \end{figure} 
+
+    Siehe auch Aufbau Back \& Forth am Ende des Dokuments.~\ref{sec:aufbau_back_forth}
 
     \underline{Beweis:}\\
     Wir sollen zeigen, dass es ein nicht leeres Back and Forth System gibt, also müssen wir uns zuerst eines aussuchen.\\
@@ -77,14 +77,28 @@ Hier ist vieles sehr genau und verständlich erklärt.
             \\Dann gilt, dass $F: \{c\} \rightarrow \{d\}, c \mapsto d$ Isomorphismus ist
             \\(Die von \{c\} und \{d\} erzeugten Mengen sind wieder \{c\} bzw. \{d\} und offensichtlich endlich erzeugt),\\
             da F klar bijektiv und E in beiden Strukturen Äquivalenzerelartion ist, womit F auch starker $\mathscr{L}$-Hom. ist.\\
+            $\Rightarrow$ S ist nicht leer.\\
 
         \item S ist Back & Forth System\\
             \begin{itemize}
-                \item Back:\\
-                    
+                \item \framebox{Back:}\\
+                    Sei $F \in S$ und $b \in B\backslash Im(F)$\\                  
+                    \\1. Falls dieses b in Äquivalenzerelation mit einem b' aus dem Bild Im(F) steht.\\
+                    Suchen wir ein $a \in A$ für das gilt $(a, F^{-1}(b')) \in E^{\mathfrak{A}}$ und setzen F'(a) = b.\\
+                    \\2. Falls dieses b in keiner Äquivalenzerelation steht darf das dazugehörige a dies auch nicht tun.\\
+                    Also suchen wir ein a für das gilt: $(a, a') \notin E^{\mathfrak{A}}, \forall a' \in Dom(F)$ und setzen F'(a) = b.\\
 
+                \item \framebox{Forth:}\\
+                    Sei $F \in S$ und $a \in A\backslash Dom(F)$\\
+                    \\1. Falls a in einer Äquivalenzerelation mit einem a' steht.\\
+                    Dann suchen wir ein b, sodass gilt $(b, F(a')) \in E^{\mathfrak{B}}$ und setzen F'(a) = b.\\
+                    \\2. Falls a in keiner Äquivalenzerelation steht.\\
+                    Dann suchen wir ein b, sodass $(b, b') \notin E^{\mathfrak{B}}, \forall b' \in Im(F)$ und setzen F(a) = b.\\
             \end{itemize}
+
+            $\Rightarrow$ S ist Back \& Forth System.\\
     \end{itemize}
+    $\Rightarrow$ S ist nichtleeres Back \& Forth System.
     
 
 
@@ -167,7 +181,7 @@ Hier ist vieles sehr genau und verständlich erklärt.
     \text{ wobei  }\mathfrak{C}, \mathfrak{D} \text{ endlich erzeugt}\}$ ist.\\
     Mit $\mathfrak{C} \subset \mathfrak{A}$ ist gemeint, dass $\mathfrak{C}$ Unterstruktur von $\mathfrak{A}$ ist.\\
 
-    Falls dieses S kein nichtleers Back \& Forth System ist, können wir ein weiter eingeschränktes S suchen.\\
+    Falls dieses S kein nichtleeres Back \& Forth System ist, können wir ein weiter eingeschränktes S suchen.\\
     Hier hängt die Einschränkung vom konkreten Fall ab, schaut einfach, wo das Problem für euer erstes S lag.\\
     Es kann natürlich aus sein, dass keins existiert, wenn dies der Fall ist seht ihr das aber in der Regel schnell.\\
 
@@ -175,12 +189,27 @@ Hier ist vieles sehr genau und verständlich erklärt.
     \begin{itemize}
         \item S ist nichtleer\\
         \item S ist Back \& Forth System\\
-            \framebox{Back:}\\
-                Sei $F \in S$, also F bildet von C nach D isomorph ab und gelte $d \in D\backslash Im(F)$.\\
-                Dann muss für dieses beliebige c gelten, dass ein F' existiert mit:\\
-                \\$F': C\cup \{c\} \rightarrow D \cup \{d\} $
+            \begin{itemize}
+                \item \framebox{Back:}\\
+                    Sei $F \in S$, also F bildet von C nach D isomorph ab und gelte $b \in B\backslash Im(F)$.\\
+                    Dann muss für dieses beliebige b gelten, dass ein $a \in A\backslash Dom(F)$ und damit ein F' existiert mit:\\
+                    \\$F': A\cup \{a\} \rightarrow B \cup \{b\} $,\\
+                    \\also ein F'(a) = b, welches nur für a anders abbildet und die Isomorphie-\\Eigenschaften erhält.\\
+                    Wenn b also mit x in einer Relation war,\\
+                    so muss dies auch für a und $F'^{-1}(x)$ der Fall sein usw.\\
+                    \\Wenn wir zeigen können, dass wir immer ein solches a finden ist Back fertig, falls nicht stimmt S nicht.\\
+                
+                \item \framebox{Forth:}\\
+                    Ziemlich gleich zu Back\\
+                    \\$F \in S$ und $a \in A\backslash Dom(F)$ beliebig\\
+                    Falls wir ein $b \in B\backslash Im(F)$ finden, für das wir F'(a) = b setzen können\\
+                    (wieder ist F' nur bei a zu F unterschiedlich) und dass die Isomorphie behält sind wir mit Forth fertig.\\
+
+            \end{itemize}
+
     \end{itemize}
 
+    Haben wir beides erfolgreich gezeigt gibt es ein nichtleeres Back \& Forth System und die Strukturen sind elementar äquivalent.\\
 
 
 \end{document}
