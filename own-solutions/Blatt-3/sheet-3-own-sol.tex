@@ -175,6 +175,50 @@ Hier ist vieles sehr genau und verständlich erklärt.
         \label{fig:}
     \end{figure}
 
+    \begin{itemize}
+        \item a)\\
+            Annahme: $\mathfrak{G} = (G, \{R^{\mathfrak{G}}\})$ ist endlicher Zufallsgraph.\\
+            Dann müsste mit A = G und B = $\emptyset$ gelten:\\
+            $\exists c: (a,c) \in R^{\mathfrak{G}} \text{ und } (b,c) \notin R^{\mathfrak{G}}, \forall a \in A, b \in B$\\
+            Da jedoch $c \in A$ gilt folgt (c,c) $\in R^{\mathfrak{G}}$,\\
+            aber es darf keine Schlingen geben (zweielementige Teilmengen waren gefordert).\\
+            \\$\Rightarrow$ Es gibt keinen endlichen Zufallsgraphen.
+
+        \item b)\\
+            \begin{itemize}
+                \item \underline{ZZ:} $\mathfrak{A} = (\mathds{N}, \{R\})$ ist Graph\\
+                    \underline{Beweis:}\\
+                    Es muss Symmetrie und Irreflexivität gezeigt werden (Def. Graph)
+                    \begin{itemize}
+                        \item Symmetrie:\\
+                            Seien $n,m \in \mathds{N}$ zu Basis 2 und gelte R(n,m)\\
+                            $\Rightarrow R(n,m) \Leftrightarrow [m]_n = 1 \text{ oder } [n]_m = 1 \Leftrightarrow [n]_m \text{ oder } [m]_n = 1 \Leftrightarrow
+                            R(m,n)$\\
+                        \item Irreflexivität:\\
+                            Sei $n \in \mathds{N} zur Basis 2$.\\
+                            Würde hier gelten R(n,n) $\Rightarrow [n]_n = 1 \Rightarrow \sum^{m}_{i=0}[n]_i = 1 \cdot 2^n + \sum^{m}_{i=0, i \neq n} [n]_i \cdot 2^i 
+                            \gneq n$\\
+                            Das hieße, dass die binäre Darstellung von n größer ist als n selbst. Widerspruch!
+                    \end{itemize}
+
+                    $\Rightarrow$ \mathfrak{A} ist Graph
+                
+                \item \underline{ZZ:} $\mathfrak{A} = (\mathds{N}, \{R\})$ ist Zufallsgraph\\
+                    \underline{Beweis:}\\
+                    Seien $A,B \subset \mathds{N}$ endlich und disjunkt und sei Ohne Einschränkung $max(A) > max(B)$, sowie $|A| = n$.\\
+                    Setze nun $c = 2^{a_1} + \dots 2^{a_n}, a_i \in A$\\
+                    $\Rightarrow [c]_a = 1 \Rightarrow R(c,a), \forall a \in A$\\
+                    Also ist c mit allen Elementen aus A verbunden.\\
+                    \\Wir zeigen, dass c mit keinem Element in B verbunden ist:\\
+                    $[b]_c = 0$, da wenn $[b]_c = 1$ folgt, dass $b < [b]_c \cdot 2^c = 2^c$ (da $c > b, \forall b \in B$).\\
+                    Und $[c]_b = 0, \forall b \in B$, da wenn $[c]_b = 1$ ein $a_i = b$ existieren müsste. Widerspruch zu Disjunktheit von A und B.\\
+                    \\$\Rightarrow \mathfrak{A} = (\mathds{N}, \{R\})$ ist Zufallsgraph.
+
+            \end{itemize}
+        \item c)\\
+
+    \end{itemize}
+
 \section*{}%
 \label{sec:aufgabe_4}
 
@@ -184,6 +228,33 @@ Hier ist vieles sehr genau und verständlich erklärt.
         \label{fig:}
     \end{figure}
 
+    \begin{itemize}
+        \item a)\\
+            \underline{Beweis:}\\ 
+            Weil $\mathfrak{A} \subseteq \mathfrak{B}$ ist folgt, dass die Identitätsabbildung $Id_A: A \rightarrow B$ Einbettung ist.\\
+            Daraus folgt, dass alle Terme, also Konstanten, Individuenvariablen und Funktionen in $\mathfrak{A} \text{ und  } \mathfrak{B}$ gleich ausgewertet werden.\\
+
+            \\Atomare Formeln können entweder aus Relationen R oder der logischen Gleichheit $\doteq$ bestehen. Seien $t_1,...,t_n$ \mathscr{L}-Terme.\\
+            
+            \begin{itemize}
+                \item n-stellige Relation R, also $\varphi = R(t_1,...,t_n)$\\
+                    \\Es gilt: $\mathfrak{A} \models \varphi[a_1,\dots,a_m]$\\
+                    $\Leftrightarrow (t_1^{\mathfrak{A}}[a_1,\dots,a_m],\dots,t_n^{\mathfrak{A}[a_1,\dots,a_m]}) \in R^{\mathfrak{A}}$\\
+                    $\overset{Id_A Einbettung}{\Leftrightarrow} (t_1^{\mathfrak{B}}[a_1,\dots,a_m],\dots,t_n^{\mathfrak{B}[a_1,\dots,a_m]}) \in R^{\mathfrak{B}}$\\
+                    $\Leftrightarrow \mathfrak{B} \models \varphi[a_1,\dots,a_m]$\\
+$
+                
+                \item logische Gleichheit $\doteq$, also $\varphi = t_1 \doteq t_2$\\
+                    \\$\mathfrak{A} \models \varphi[a_1,\dots,a_m]$\\
+                    $\Leftrightarrow t_1^{\mathfrak{A}}[a_1,\dots,a_m] \doteq t_2^{\mathfrak{A}}[a_1,\dots,a_m]$\\
+                    $\Leftrightarrow t_1^{\mathfrak{B}}[a_1,\dots,a_m] \doteq t_2^{\mathfrak{B}}[a_1,\dots,a_m]$\\
+                    $\mathfrak{B} \models \varphi[a_1,\dots,a_m]$\\
+
+            \end{itemize}
+        \item b)\\
+
+
+    \end{itemize}
 
 \section*{Aufbau Back \& Forth}%
 \label{sec:aufbau_back_forth}
