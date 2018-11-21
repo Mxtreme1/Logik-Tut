@@ -19,6 +19,7 @@
 \setlength{\parindent}{0pt}
 \usepackage{enumitem}
 \usepackage{hyperref}
+\usepackage{verbatim}
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 % Kopf- und Fusszeilen %
@@ -220,7 +221,15 @@ Hier ist vieles sehr genau und verständlich erklärt.
         \item c)\\
             Sind je zwei Zufallsgraphen als \{R\}-Strukturen elementar äquivalent?\\
 
-            \\
+            \\Wir behaupten, dass die Antwort ja ist und zeigen dies, indem wir ein nichtleeres Back \& Forth System finden.\\
+
+            \begin{comment}
+            \\Für die Zufallsgraphen muss auch die für sie typische Eigenschaft gelten, also:\\
+            $\forall A,B$ Mengen, die endlich und disjunkt:\\
+            $\exists c \notin B$ sodass c mit allen aus A und keinem aus B verbunden ist.\\
+            \\\underline{Beweis:}\\
+            Wir können ein d konstruieren mit d  
+            \end{comment}
 
     \end{itemize}
 
@@ -242,7 +251,7 @@ Hier ist vieles sehr genau und verständlich erklärt.
             Daraus folgt, dass alle Terme, also Konstanten, Individuenvariablen und Funktionen in $\mathfrak{B}$ genauso ausgewertet werden wie in $\mathfrak{A}$\\
             (Die Umkehrung gilt jedoch nicht, da nicht jedes Element aus B in A sein muss).\\
 
-            \\Atomare Formeln können entweder aus Relationen R oder der logischen Gleichheit $\doteq$ bestehen. Seien $t_1,...,t_n$ \mathscr{L}-Terme.\\
+            \\Atomare Formeln können entweder aus Relationen R oder der logischen Gleichheit $\doteq$ bestehen. Seien $t_1,...,t_n \mathscr{L}$-Terme.\\
             
             \begin{itemize}
                 \item n-stellige Relation R, also $\varphi = R(t_1,...,t_n)$\\
