@@ -111,6 +111,30 @@ Hier ist vieles sehr genau und verständlich erklärt.
         \label{fig:}
     \end{figure}
 
+    \begin{itemize}
+        \item a)\\
+            \underline{ZZ:} $\mathfrak{A} \preceq \mathfrak{B} \Rightarrow \mathfrak{A} \equiv \mathfrak{B}$\\
+            \underline{Bew:}\\
+               \begin{figure}[H]
+                   \centering
+                   \includegraphics[scale=0.25]{./El-equiv.png}
+                   \label{fig:}
+               \end{figure} 
+
+               Da die $\mathscr{L}$-Aussagen eine Teilmenge der $\mathscr{L}$-Formeln ist folgt $\mathfrak{A} \equiv \mathfrak{B}$.\\
+
+        \item b)\\
+            \underline{ZZ:} Sei $\mathfrak{A} \vDash T, \mathfrak{B} \vDash T, \mathfrak{A} \subset \mathfrak{B}$ dann folgt $\mathfrak{A} \preceq \mathfrak{B}$\\
+            \underline{Beweis:}\\
+                Für alle $\mathscr{L}$-Formeln $\varphi$ und alle $a_i \in A$ soll also gelten:\\
+                $\mathfrak{A} \vDash \varphi[a_1,\dots,a_n] \Rightarrow \mathfrak{B} \vDash \varphi[a_i,\dots,a_n]$\\
+                \\Mit T folgt:\\
+                $\Leftrightarrow \mathfrak{A} \vDash \psi[a_1,\dots,a_n] \Rightarrow \mathfrak{B} \vDash \psi[a_i,\dots,a_n]$\\
+                \\Aus Blatt 3 Aufgabe 4 b) folgt obiges mit quantorenfreiem $\psi \text{ und } \mathfrak{A} \subset \mathfrak{B}$\\
+                \\$\Rightarrow \mathfrak{B} \vDash \varphi[a_1,\dots,a_n] \Rightarrow \mathfrak{A} \preceq \mathfrak{B}$\\
+
+    \end{itemize}
+
 \section*{}%
 \label{sec:aufgabe_4}
 
@@ -125,5 +149,29 @@ Hier ist vieles sehr genau und verständlich erklärt.
         \includegraphics[scale=0.3]{./A-4-2.png}
         \label{fig:}
     \end{figure}
+
+    \begin{itemize}
+        \item a)\\
+            Sei $a \in A$, dann gilt mit $c_i^{\mathfrak{A'}} = a, \forall i \in \{1,\dots,n\}$,\\
+            dass $\mathfrak{A'} = (A, \mathscr{L}') \quad \mathscr{L}'$-Struktur ist.\\ 
+
+        \item b)\\
+            Nein, wir beweisen mit Gegenbeispiel.\\
+            Sei $\mathfrak{A}' = (A, \mathscr{L}')$ mit $c_i^{\mathfrak{A}'} = a, \forall i \in \{1,\dots,n\}, a \in A$\\
+            und Sei $\mathfrak{A}'' = (A, \mathscr{L}')$ mit $c_i^{\mathfrak{A}''} = a_i, \forall i \in \{1,\dots,n\}, a_i \in A \text{ und } a_i \neq a_j
+            \text{ für  } i \neq j$\\
+            Es gilt: $\mathfrak{A}' \vdash c_i \doteq c_j \text{, aber } \mathfrak{A}'' \nvdash c_i \doteq c_j \text{ für } i \neq j$\\
+            $\Rightarrow \mathfrak{A} \text{ und } \mathfrak{B}$ sind nicht isomorph.
+
+        \item c)\\
+            \underline{ZZ:} $\vdash \varphi[x_1,\dots,x_n] \Rightarrow \vdash \varphi[c_1,\dots,c_n]$\\
+            \\\underline{Beweis:}\\
+                Wenn $\varphi[x_1,\dots,x_n]$ allgemeingültig ist, dann ist die Auswertung von den $c_i$ egal, da $\varphi$ für jeden Wert wahr ist.\\
+                $\Rightarrow \vdash \varphi[c_1,\dots,c_n]$\\
+                \\Wenn $\varphi[x_1,\dots,x_n]$ nicht allgemeingültig ist, dann gibt es $x_1,\dots,x_n$ für die $\varphi$ falsch wird.\\
+                Setzen wir nun $c_i^{\mathfrak{A}'} = x_i$, dann ist $\varphi[c_1,\dots,c_n]$ ebenso falsch und kann damit nicht allgemeingültig sein.\\
+                
+
+    \end{itemize}
 
 \end{document}
