@@ -61,7 +61,61 @@ Hier ist vieles sehr genau und verständlich erklärt.
         \label{fig:}
     \end{figure}
 
+    \underline{ZZ:} $\mathfrak{A} \vDash \varphi[a_1,\dots,a_n] \Leftrightarrow \mathfrak{A} \upharpoonright \mathscr{L}_0 \vDash \varphi[a_1,\dots,a_n]$\\
+    \\\underline{Beweis:}\\
+        Zunächst nennen wir $\mathfrak{A} \upharpoonright \mathscr{L}_0$ im Folgenden $\mathfrak{B}$
+        Wir machen eine Induktion über den Formelaufbau (wie üblich zeigen wir nur den Induktionsschritt).\\
 
+        \begin{itemize}
+            \item Terme:\\
+                \begin{itemize}
+                    \item $t = c$\\
+                        $t^{\mathfrak{A}}[a_1,\dots,a_n] = c = t^{\mathfrak{B}}[a_1,\dots,a_n]$\\
+                    \item $t = x_i$\\
+                        $t^{\mathfrak{A}}[a_1,\dots,a_n] = x_i = t^{\mathfrak{B}}[a_1,\dots,a_n]$\\
+                    \item $t = f(t_1,\dots,t_n)$
+                        $t^{\mathfrak{A}}[a_1,\dots,a_n] = f^{\mathfrak{A}}(t_1^{\mathfrak{A}},\dots,t_n^{\mathfrak{A}})
+                        \overset{I.V.}{=} f^{\mathfrak{A}}(t_1^{\mathfrak{B}},\dots,t_n^{\mathfrak{B}})
+                        = f^{\mathfrak{B}}(t_1^{\mathfrak{B}},\dots,t_n^{\mathfrak{B}})$
+                \end{itemize}
+
+\newpage
+
+            \item atomare Formeln:\\
+                \begin{itemize}
+                    \item $\varphi = t_1 \doteq t_2$\\
+                        $\mathfrak{A} \vDash \varphi[a_1,\dots,a_n] \Leftrightarrow t_1^{\mathfrak{A}}[a_1,\dots,a_n] \doteq t_1^{\mathfrak{A}}[a_1,\dots,a_n]\\
+                        \Leftrightarrow t_1^{\mathfrak{B}}[a_1,\dots,a_n] \doteq t_1^{\mathfrak{B}}[a_1,\dots,a_n]
+                        \Leftrightarrow \mathfrak{B} \vDash \varphi[a_1,\dots,a_n]$\\
+                    \item $\varphi = R(t_1,\dots,t_n)$\\
+                        $\mathfrak{A} \vDash \varphi[a_1,\dots,a_n] \Leftrightarrow (t_1^{\mathfrak{A}},\dots,t_n^{\mathfrak{A}}) \in R^{\mathfrak{A}}\\
+                        \Leftrightarrow (t_1^{\mathfrak{B}},\dots,t_n^{\mathfrak{B}}) \in R^{\mathfrak{A}}
+                        \Leftrightarrow (t_1^{\mathfrak{B}},\dots,t_n^{\mathfrak{B}}) \in R^{\mathfrak{B}}
+                        \Leftrightarrow \mathfrak{B} \vDash \varphi[a_1,\dots,a_n]$\\
+                \end{itemize}
+
+            \item quantorenfreie Formeln:\\
+                \begin{itemize}
+                    \item $\varphi = \neg \psi$\\
+                        $\mathfrak{A} \vDash \varphi[a_1,\dots,a_n] \Leftrightarrow \mathfrak{A} \nvDash \psi[a_1,\dots,a_n]
+                        \overset{I.V.}{\Leftrightarrow} \mathfrak{B} \nvDash \psi[a_1,\dots,a_n] \Leftrightarrow \mathfrak{B} \vDash \varphi[a_1,\dots,a_n]$
+                    \item $\varphi = \psi_1 \lor \psi_2$\\
+                        $\mathfrak{A} \vDash \varphi[a_1,\dots,a_n]\\
+                        \Leftrightarrow \mathfrak{A} \vDash \psi_1[a_1,\dots,a_n] \text{ oder } \mathfrak{A} \vDash \psi_2[a_1,\dots,a_n]\\
+                        \overset{I.V.}{\Leftrightarrow} \mathfrak{B} \vDash \psi_1[a_1,\dots,a_n] \text{ oder } \mathfrak{B} \vDash \psi_2[a_1,\dots,a_n]\\
+                        \Leftrightarrow \mathfrak{B} \vDash \varphi[a_1,\dots,a_n]$\\
+                \end{itemize}
+
+            \item Formeln mit Quantoren:\\
+                \begin{itemize}
+                    \item $\varphi = \exists \psi$\\
+                        $\mathfrak{A} \vDash \varphi[a_1,\dots,a_n]\\
+                        \Leftrightarrow \mathfrak{A} \vDash \psi[a_1,\dots,a_n,a]\\
+                        \overset{I.V.}{\Leftrightarrow} \mathfrak{B} \vDash \psi[a_1,\dots,a_n,a]\\
+                        \mathfrak{B} \vDash \varphi[a_1,\dots,a_n]$\\
+                \end{itemize}
+                        
+        \end{itemize}
 
 \section*{}%
 \label{sec:aufgabe_2}
@@ -101,6 +155,7 @@ Hier ist vieles sehr genau und verständlich erklärt.
 
     \end{itemize}
 
+\newpage
 
 \section*{}%
 \label{sec:aufgabe_3}
