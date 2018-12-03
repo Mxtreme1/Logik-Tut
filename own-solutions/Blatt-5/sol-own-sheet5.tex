@@ -212,6 +212,46 @@ Hier ist vieles sehr genau und verständlich erklärt.%}}}
             \end{figure}
         
         \item c)\\
+            Diag$(\mathcal{R}) = \{\varphi \mathscr{L}-Auss | \mathcal{R} \vDash \varphi\}$\\
+            \\\underline{ZZ:} 
+            Wenn $\mathcal{N} \mathscr{L}(\mathds{R})$-Struktur: $\mathcal{N} \vDash Diag(\mathcal{R}) \Leftrightarrow F(\mathcal{R}) \preceq \mathcal{N}$\\
+            \\\underline{Beweis:}\\
+
+            \begin{itemize}
+                \item $\mathcal{N} \vDash Diag(\mathcal{R}) \Rightarrow F(\mathcal{R}) \preceq \mathcal{N}$\\
+                    Aus a) wissen wir, dass  $F(\mathcal{R}) \subset \mathcal{N}$, aus  b), dass F Einbettung ist.\\
+                    \\Sei $\varphi \text{  } \mathscr{L}(\mathds{R})$-Formel\\
+                    \begin{equation*}
+                        \begin{split}
+                            \label{eq:}
+                            & F(\mathcal{R} \vDash \varphi[r_1,\dots,r_n])\\
+                            \Rightarrow & F(\mathcal{R} \vDash \varphi[r_1^{F(\mathcal{R})},\dots,r_n^{\mathcal{R}}])\\
+                            \overset{\text{R als }\mathscr{L}(\mathcal{R}) \text{-Struktur } \simeq F(\mathcal{R})}{\Rightarrow} & \mathcal{R} \vDash
+                            \varphi[d_{r_1}^\mathcal{R},\dots,d_{r_n}^\mathcal{R}]\\
+                            \overset{Aufgabe}{\Rightarrow} & \varphi[d_{r_1}^\mathcal{R},\dots,d_{r_n}^\mathcal{R}] \in Diag(\mathcal{R})\\
+                            \Rightarrow & \mathcal{N} \vDash \varphi[d_{r_1}^{F(\mathcal{R})},\dots,d_{r_n}^{F(\mathcal{R})}]\\
+                            \Rightarrow & \mathcal{N} \vDash \varphi[r_1,\dots,r_n]\\
+                        \end{split}
+                    \end{equation*}
+                    \\Da dies für alle $\varphi$ gilt folgt: $F(\mathcal{R}) \preceq \mathcal{N}$\\
+            
+                \item $F(\mathcal{R} \preceq \mathcal{N}) \Rightarrow \mathcal{N} \vDash Diag(\mathcal{R})$\\
+                    \\Sei $\varphi \in Diag(\mathcal{R}) \text{, also } \mathscr{L}$- Aussage.\\
+                    $\overset{Aufgabe}{\Leftrightarrow} \mathcal{R} \vDash \varphi$\\
+                    $\overset{\mathcal{R} \simeq F(\mathcal{R})}{\Leftrightarrow} F(R) \vDash \varphi$\\
+                    $\overset{F(\mathcal{R}) \preceq \mathcal{N}}{\Leftrightarrow}\mathcal{N} \vDash \varphi$\\
+                    \\$\mathcal{N} \vDash Diag(\mathcal{R})$\\
+
+
+            \end{itemize}
+
+            \begin{figure}[H]
+                \centering
+                \includegraphics[scale=0.3]{./B4-3.png}
+                \caption{Von Blatt 4}
+                \label{fig:./B4-3}
+            \end{figure}
+            
 
 
     \end{itemize}
