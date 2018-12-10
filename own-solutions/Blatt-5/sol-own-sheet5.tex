@@ -114,6 +114,11 @@ Hier ist vieles sehr genau und verständlich erklärt.%}}}
                     $\vdash (\exists x(\varphi \land \psi) \rightarrow (\exists x \varphi \land \psi))$\\
             \end{itemize}
         \item b)\\
+            $\vdash (\exists x (\varphi \land \psi) \rightarrow (\exists x \varphi \land \psi))$\\
+            $(\forall y f(y) \doteq x \rightarrow \forall f(y) \doteq f(z)) \forall$-Einführung (z nicht frei in ($\forall y f(y) \doteq x$))\\
+            $(\forall y f(y) \doteq x \rightarrow \forall y \forall z f(y) \doteq f(z)) \forall$-Einführung (y nicht frei in $\forall y f(y) \doteq x$)\\
+            $(\exists x \forall y f(y) \doteq x \rightarrow \forall y \forall z (f(y) \doteq f(z)) 
+            \exists$-Einführung (x nicht frei in $\forall y \forall z (f(y) \doteq f(z)$)\\
 
     \end{itemize}%}}}
 
@@ -127,11 +132,13 @@ Hier ist vieles sehr genau und verständlich erklärt.%}}}
     \end{figure}
 
     \underline{Beweis:}\\
-        Sei $\mathfrak{A} \vDash T \cup \{\neg \Theta_2\}$
-        $\mathfrak{A} \vDash \chi\\
-        \overset{Aufgabe}{\Rightarrow} \mathfrak{A} \vDash (\Theta_1 \rightarrow \Theta_2)\\
-        \overset{\neg \Theta_2}{\Rightarrow} \mathfrak{A} \vDash \neg \Theta_1$\\
-        $\Rightarrow \mathfrak{A} \vDash (\chi \rightarrow \neg \Theta_1)$\\
+        Aus $T \cup \{\chi\} \vDash (\Theta_1 \rightarrow \Theta_2)$ folgt:\\
+    $\overset{Kor 2.44}{\Leftrightarrow} T \vDash (\chi \rightarrow (\Theta_1 \rightarrow \Theta_2))$\\
+        $(\chi \rightarrow (\Theta_1 \rightarrow \Theta_2))$\\
+        $\sim (\neg \chi \lor (\neg \Theta_1 \lor \Theta_2))$\\
+        $\sim (\Theta_2 \lor \neg \chi \lor \neg \Theta_1)$\\
+        $\sim (\neg \Theta_2 \rightarrow (\chi \rightarrow \neg \Theta_1))$\\
+        $\overset{Kor 2.44}{\Leftrightarrow} T \cup \{\neg \Theta_2\} \vDash (\chi \rightarrow \neg \Theta_1)$\\
 
 %}}}
 
