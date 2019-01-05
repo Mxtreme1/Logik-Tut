@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.26)  5 JAN 2019 15:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.26)  5 JAN 2019 19:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1718,105 +1718,105 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--122
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
+Underfull \hbox (badness 10000) in paragraph at lines 122--124
 
  []
 
 <./A-3.png, id=34, 1569.865pt x 128.48pt>
 File: ./A-3.png Graphic file (type png)
 <use ./A-3.png>
-Package pdftex.def Info: ./A-3.png  used on input line 130.
+Package pdftex.def Info: ./A-3.png  used on input line 131.
 (pdftex.def)             Requested size: 470.96313pt x 38.54428pt.
 
-Overfull \hbox (52.70758pt too wide) in paragraph at lines 130--132
+Overfull \hbox (52.70758pt too wide) in paragraph at lines 131--133
 [][]
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 133.
+(babel)             in language  on input line 134.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 133.
+(babel)             in language  on input line 134.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 133.
+(babel)             in language  on input line 134.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 133.
+(babel)             in language  on input line 134.
 [3 <./A-2.png>]
 <./prim-rek.png, id=44, 1387.1825pt x 433.62pt>
 File: ./prim-rek.png Graphic file (type png)
 <use ./prim-rek.png>
-Package pdftex.def Info: ./prim-rek.png  used on input line 136.
+Package pdftex.def Info: ./prim-rek.png  used on input line 137.
 (pdftex.def)             Requested size: 416.15796pt x 130.087pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--142
+Underfull \hbox (badness 10000) in paragraph at lines 141--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--144
+Underfull \hbox (badness 10000) in paragraph at lines 143--145
 
  []
 
 <./char-fkt.png, id=45, 1387.1825pt x 287.0725pt>
 File: ./char-fkt.png Graphic file (type png)
 <use ./char-fkt.png>
-Package pdftex.def Info: ./char-fkt.png  used on input line 149.
+Package pdftex.def Info: ./char-fkt.png  used on input line 150.
 (pdftex.def)             Requested size: 416.15796pt x 86.1224pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--151
+Underfull \hbox (badness 10000) in paragraph at lines 145--152
 
  []
 
 <./dotdiv.png, id=46, 893.3375pt x 690.58pt>
 File: ./dotdiv.png Graphic file (type png)
 <use ./dotdiv.png>
-Package pdftex.def Info: ./dotdiv.png  used on input line 155.
+Package pdftex.def Info: ./dotdiv.png  used on input line 156.
 (pdftex.def)             Requested size: 268.00331pt x 207.1756pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--157
+Underfull \hbox (badness 10000) in paragraph at lines 153--158
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 158.
+(babel)             in language  on input line 159.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 158.
+(babel)             in language  on input line 159.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 158.
+(babel)             in language  on input line 159.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 158.
+(babel)             in language  on input line 159.
 [4 <./A-3.png> <./prim-rek.png> <./char-fkt.png>]
 
 AED: lastpage setting LastPage
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 167.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 167.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 167.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 167.
+(babel)             in language  on input line 168.
 [5 <./dotdiv.png>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 167.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 167.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 167.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 167.
+(babel)             in language  on input line 168.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 168.
  (./own-sol-8.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 167.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 167.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 168.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 168.
 Package rerunfilecheck Info: File `own-sol-8.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 167.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 168.
  ) 
 Here is how much of TeX's memory you used:
  21434 strings out of 492982
  405668 string characters out of 6134895
- 562595 words of memory out of 5000000
+ 563618 words of memory out of 5000000
  24578 multiletter control sequences out of 15000+600000
  17221 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1838,7 +1838,7 @@ exlive/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb></usr/share/texm
 f/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public
 /cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.p
 fb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on own-sol-8.pdf (5 pages, 454787 bytes).
+Output written on own-sol-8.pdf (5 pages, 454717 bytes).
 PDF statistics:
  118 PDF objects out of 1000 (max. 8388607)
  86 compressed objects within 1 object stream
