@@ -77,15 +77,52 @@ Hier ist vieles sehr genau und verständlich erklärt.%}}}
         \item c)\\
             Sei $\varphi_k = m \doteq f^k(0), k \in \mathds{N}\backslash\{0\}$\\
             Dann gilt mit $m \neq f^k(0), \forall k \in \mathds{N}\backslash\{0\}$ auch $\neg \varphi_k, \forall k \in \mathds{N}\backslash\{0\}$\\
-            \\Wir zeigen zunächst, dass $\mathcal{M}$ existiert und dann, dass es elementare Erweiterung ist:\\
             \begin{itemize}
                 \item $\mathcal{M}$ existiert:\\
                     Wir zeigen, dass $\mathcal{N}$ und $\neg \varphi_k, k \in \mathds{N}\backslash\{0\}$ sich nicht wiedersprechen,\\
                     also dass $T = Diag(\mathcal{N}) \cup \{\neg \varphi_k | k \in \mathds{N}\backslash\{0\}\}$ konsistent ist.\\
-                \item $\mathcal{M}$ ist elementare Erweiterung von $\mathcal{N}$\\
+                    \\Wir zeigen dies für $k_1 \leq \dots \leq k_n$ und nutzen dann den Kompaktheitssatz.\\
+                    Sei $\mathscr{L}^* = \mathscr{L} \cup \{c\}$,\\
+                    sowie $\mathcal{N}^*$ wie $\mathcal{N}$ als $ \mathscr{L}^*( \mathds{N})$-Struktur mit $c^{\mathcal{N}^*} = k_{n+1}$\\
+                    \\$\Rightarrow \mathcal{N}^*$ ist Modell von $Diag(\mathcal{N}) \cup \{\neg \varphi_1, \dots, \neg \varphi_n\}$\\
+                    $\Rightarrow Diag(\mathcal{N}) \cup \{\neg \varphi_1, \dots, \neg \varphi_n\}$ ist konsistent.\\
+                    $\overset{Kompakth.}{\Rightarrow} Diag(\mathcal{N}) \cup \{\neg \varphi_k | k \in \mathds{N}\backslash\{0\}\}$ ist konsistent.\\
+                    \\Mit $\mathcal{M} \vDash T$ folgt, dass $\mathcal{M} \upharpoonright \mathscr{L}$ die gesuchte elementare Erweiterung ist.\\
             \end{itemize}
         \item d)\\
+            Das normale $\mathcal{N}$ hat nur die natürlichen Zahlen:\\
+            \begin{figure}[H]
+                \centering
+                \includegraphics[scale=0.2]{./N.JPG}
+                \caption{$\mathcal{N}$}
+                \label{fig:./DSC_0580}
+            \end{figure}
+
+            $\mathcal{N}'$ hat zusätzlich ein Element, dass nicht durch ein $f^{\mathcal{N}^k}(0)$ getroffen wird.\\
+            Dies hat mit b) jedoch auch wieder Nachfolger und Vorgänger, damit entsteht ein Zahlenstrahl.\\
+
+            \begin{figure}[H]
+                \centering
+                \includegraphics[scale=0.2]{./N'.JPG}
+                \caption{$\mathcal{N}'$}
+                \label{fig:./DSC_0580}
+            \end{figure}
+
+\newpage
+
+            Ebenso wie in $\mathcal{N}'$ haben wir einen neuen Zahlenstrahl.\\
+
+            \begin{figure}[H]
+                \centering
+                \includegraphics[scale=0.2]{./N''.JPG}
+                \caption{$\mathcal{N}''$}
+                \label{fig:./DSC_0580}
+            \end{figure}
+            
         \item e)\\
+            Abzählbare Modelle haben ein abzählbares Universum,\\
+            sowie eine Anzahl von Zahlenstrahlen.\\
+            \\Für jedes $n \in \mathds{N}$ gibt es ein Modell mit genau n Zahlenstrahlen.\\
     \end{itemize}
 
 
@@ -93,8 +130,7 @@ Hier ist vieles sehr genau und verständlich erklärt.%}}}
 
 \newpage
 
-\section*{}%{{{
-\label{sec:aufgabe_2}
+\label{sec:aufgabe_2}%{{{
 
     \begin{figure}[H]
         \includegraphics[scale=0.3]{./A-2.png}
@@ -102,27 +138,25 @@ Hier ist vieles sehr genau und verständlich erklärt.%}}}
     \end{figure}
 
     \begin{itemize}
-            Wir zeigen die Konsistenz für eine endliche Teilmenge $\Sigma \subseteq_{endlich} Diag^{at}(\mathcal{R})$,\\
+        \item \underline{ZZ:} $Diag^{at}(R) \cup T$ ist konsistent\\
+            \\Wir zeigen die Konsistenz für eine endliche Teilmenge $\Sigma \subseteq_{endlich} Diag^{at}(\mathcal{R})$,\\
             um danach den Kompaktheitssatz anzuwenden.\\
             \\Nun überlegen wir uns, welche Aussagen in $\Sigma$ sein können:\\
             Alle die, die etwas darüber aussagen, dass ein Element strikt kleiner, als ein anderes ist.\\
-            \\Da $\Sigma$ endlich ist können auch nur endlich viele Elemente aus $\mathds{R}, \{r_1,\dots,r_n\}$ darin vorkommen.\\
-            \\Es gilt weiter, wenn O.B.d.A. gilt: $r_1 < \dots < r_n$, dann gilt auch:\\
-            \begin{center}
-                \\$\underline{\bigwedge_{i=1}^{n-1} r_i < r_{i+1}} \vdash A \in \Sigma$\\
-            \end{center}
-            (mit dem wissen, dass < die natürliche Ordnung ist und damit ihren Regeln unterliegt)\\
-            \\Um obige Formel ausdrücken zu können benötigen wir eine Sprache mit entsprechenden Konstantenzeichen: 
-            $\mathcal{L}^* = \mathcal{L} \cup \{d_{r_1}, \dots, d_{r_n}\}$\\
-            \\Sei also $\psi = \bigwedge_{i=1}^{n-1} r_i < r_{i+1}$, dann gilt $\psi \vDash \Sigma$\\
-            \\Wenn $Z^*$ eine $L^*$-Struktur ist mit $d_{r_i}^{Z^*} = i$ ist folgt:\\
+            \\Da $\Sigma$ endlich ist können auch nur endlich viele Konstanten aus $\mathscr{L}(\mathds{R})$ $\mathds{r},\\
+            \{d_{r_1},\dots,d_{r_n}\}$ darin vorkommen.\\
+            \\Es gilt weiter, wenn O.B.d.A gilt: $d_{r_1} < \dots < d_{r_n}$, dann gilt auch:\\
+                \\ \centerline{$\underline{\bigwedge_{i=1}^{n-1} d_{r_i} < d_{r_{i+1}}} \vdash A \in \Sigma$}\\
+            (mit dem Wissen, dass < die natürliche Ordnung ist und damit ihren Regeln unterliegt)\\
+            \\Sei also $\psi = \bigwedge_{i=1}^{n-1} d_{r_i} < d_{r_{i+1}}$, dann gilt $\psi \vDash \Sigma$\\
+            \\Sei $\mathscr{L}^* = \mathscr{L} \cup \{d_{r_1},\dots,d_{r_n}\}$\\
+            \\Wenn $Z^*$ eine $\mathscr{L}^*$-Struktur ist mit $d_{r_i}^{Z^*} = i$ ist folgt:\\
             \\$\Rightarrow Z^* \vDash \psi$ und $Z^* \vDash T$\\
             $\Rightarrow Z^* \vDash \Sigma \cup T$ \quad (und damit konsistent)\\
             $\overset{Kompakth.}{\Rightarrow} Diag^{at}(\mathcal{R}) \cup T$ konsistent\\
         \item Man kann eine dichte lineare Ordnung in eine diskrete einbetten\\
-            Z ist diskret mit T, aber elementare Erweiterung von der dichten Ordnung $\mathcal{R}$\\
-    \end{itemize}
-%}}}
+            Z ist diskret mit T, aber Erweiterung von der dichten Ordnung $\mathcal{R}$.\\
+    \end{itemize}%}}}
 
 \section*{}%{{{
 \label{sec:aufgabe_3}
