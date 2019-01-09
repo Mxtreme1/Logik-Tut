@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.26)  9 JAN 2019 14:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.26)  9 JAN 2019 15:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1613,39 +1613,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--99
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--103
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 101.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 101.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 101.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 101.
+[2 <./N.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 103--105
 
  []
 
-<./N'.JPG, id=29, 915.42pt x 450.9648pt>
+<./N'.JPG, id=37, 915.42pt x 450.9648pt>
 File: ./N'.JPG Graphic file (type jpg)
 <use ./N'.JPG>
-Package pdftex.def Info: ./N'.JPG  used on input line 106.
+Package pdftex.def Info: ./N'.JPG  used on input line 108.
 (pdftex.def)             Requested size: 183.08075pt x 90.19136pt.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 110.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 110.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 110.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 110.
-[2 <./N.JPG>]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 111.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 111.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 111.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 111.
- [3 <./N'.JPG>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
  []
 
-<./N''.JPG, id=44, 834.7185pt x 553.8291pt>
+<./N''.JPG, id=38, 834.7185pt x 553.8291pt>
 File: ./N''.JPG Graphic file (type jpg)
 <use ./N''.JPG>
 Package pdftex.def Info: ./N''.JPG  used on input line 117.
@@ -1668,8 +1659,8 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 131.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 131.
-[4 <./N''.JPG>]
-<./A-2.png, id=50, 1577.895pt x 260.975pt>
+[3 <./N'.JPG> <./N''.JPG>]
+<./A-2.png, id=46, 1577.895pt x 260.975pt>
 File: ./A-2.png Graphic file (type png)
 <use ./A-2.png>
 Package pdftex.def Info: ./A-2.png  used on input line 136.
@@ -1740,7 +1731,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 157--159
 
  []
 
-<./A-3.png, id=51, 1569.865pt x 128.48pt>
+<./A-3.png, id=47, 1569.865pt x 128.48pt>
 File: ./A-3.png Graphic file (type png)
 <use ./A-3.png>
 Package pdftex.def Info: ./A-3.png  used on input line 165.
@@ -1758,8 +1749,8 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 168.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 168.
-[5 <./A-2.png>]
-<./prim-rek.png, id=58, 1387.1825pt x 433.62pt>
+[4 <./A-2.png>]
+<./prim-rek.png, id=54, 1387.1825pt x 433.62pt>
 File: ./prim-rek.png Graphic file (type png)
 <use ./prim-rek.png>
 Package pdftex.def Info: ./prim-rek.png  used on input line 171.
@@ -1774,7 +1765,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 177--179
 
  []
 
-<./char-fkt.png, id=59, 1387.1825pt x 287.0725pt>
+<./char-fkt.png, id=55, 1387.1825pt x 287.0725pt>
 File: ./char-fkt.png Graphic file (type png)
 <use ./char-fkt.png>
 Package pdftex.def Info: ./char-fkt.png  used on input line 184.
@@ -1784,7 +1775,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 179--186
 
  []
 
-<./dotdiv.png, id=60, 893.3375pt x 690.58pt>
+<./dotdiv.png, id=56, 893.3375pt x 690.58pt>
 File: ./dotdiv.png Graphic file (type png)
 <use ./dotdiv.png>
 Package pdftex.def Info: ./dotdiv.png  used on input line 190.
@@ -1802,7 +1793,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 193.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 193.
-[6 <./A-3.png> <./prim-rek.png> <./char-fkt.png>]
+[5 <./A-3.png> <./prim-rek.png> <./char-fkt.png>]
 
 AED: lastpage setting LastPage
 Package babel Info: Redefining ngerman shorthand "|
@@ -1813,7 +1804,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 202.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 202.
-[7 <./dotdiv.png>]
+[6 <./dotdiv.png>]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 202.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1832,8 +1823,8 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 202.
  ) 
 Here is how much of TeX's memory you used:
- 21459 strings out of 492982
- 405934 string characters out of 6134895
+ 21458 strings out of 492982
+ 405928 string characters out of 6134895
  563646 words of memory out of 5000000
  24595 multiletter control sequences out of 15000+600000
  17221 words of font info for 54 fonts, out of 8000000 for 9000
@@ -1857,10 +1848,10 @@ ive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/share/texmf/fonts/type1
 /public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfr
 m1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/shar
 e/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on own-sol-8.pdf (7 pages, 5203412 bytes).
+Output written on own-sol-8.pdf (6 pages, 5203038 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
- 100 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 500000)
+ 132 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
+ 13 named destinations out of 1000 (max. 500000)
  58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
