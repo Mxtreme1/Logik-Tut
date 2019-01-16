@@ -120,11 +120,21 @@ Hier ist vieles sehr genau und verständlich erklärt.%}}}
             Und als Theorie:\\
             $T = \{\exists k_1,\dots,k_n(\bigwedge_{i \neq j} \neg k_i \doteq k_j) \land P_x(k_i)| n,x \in \mathds{N}, i,j\leq n\}\\
             \cup \{\neg \exists x (P_i(x) \land P_j(x)) | i \neq j \in \mathds{N}\}$\\%}}}
-
         \item b)\\
-            $\mathcal{N}$ muss also unendlich viele Elemente $c_1, c_2,\dots$ haben für die gilt: $c_i \notin \bigcup_{i\in \mathds{N}}P_j^\mathcal{N}$\\
-            Wir zeigen mit dem Kompaktheitssatz und erweitern dafür $ \mathscr{L} \text{ um } c_1,c_2,\dots$\\
-            \\Also muss die Theorie $Diag(\mathcal{M}) \cup \{\neg c_i \doteq c_j | i\neq j \in \mathds{N}\} \cup \{\neg P_j(c_i) | j,i \in \mathds{N}\}$ konsistent sein.\\
+            Es soll also unendlich viele verschiedene Elemente c geben für die gilt: $\neg P_i(c), \forall i$\\%{{{
+
+            \\Wir wollen also zeigen, dass folgendes konsistent ist:\\
+            $Diag(\mathcal{M}) \cup \{\neg (c_i \doteq c_j | i \neq j)\} \cup \{\neg P_i(c_j) | i,j\in \mathds{N}\}$ konsistent ist.\\
+            \\Dafür müssen wir die Sprache wie folgt um unendlich viele Konstanten erweitern: $ \mathscr{L}' = \mathscr{L} \cup \{c_1,c_2,\dots\}$\\
+            und nutzen dann den Kompaktheitssatz.\\
+            \\Sei $n \in \mathds{N}$ beliebig und $m_1,\dots,m_n \in P_{n+1}^\mathcal{M}$ (geht da unendlich groß)\\
+            Seien nun auch $c_i^\mathcal{M} = m_i, 1 \leq i \leq n$, dann gilt:\\
+            \\$\mathcal{M} \vDash Diag(\mathcal{M}) \cup \{\neg c_i \doteq c_j |i\neq j, i,j\leq n\} \cup \{\neg P_i(c_j) | 1\leq i,j \leq n,\}$\\
+            \\Also ist $Diag(\mathcal{M}) \cup \{\neg c_i \doteq c_j |i\neq j, i,j\leq n\} \cup \{\neg P_i(c_j) | 1\leq i,j \leq n,\}$ konsistent.\\
+            \\$\overset{Kompakth.}{\Rightarrow} Diag(\mathcal{M}) \cup \{\neg (c_i \doteq c_j | i \neq j)\} \cup \{\neg P_i(c_j) | i,j\in \mathds{N}\}$ ist konsistent.\\
+            Wenn wir also ein $\mathcal{N}'$ haben, dass Modell davon ist, dann ist $\mathcal{N}'\upharpoonright \mathscr{L}$ unser $\mathcal{N}$.\\%}}}
+
+\newpage
 
         \item c)\\
             Wir zeigen, dass es ein nichtleeres Back \& Forth-System mit der Kollektion S gibt.\\%{{{
@@ -152,6 +162,12 @@ Hier ist vieles sehr genau und verständlich erklärt.%}}}
                         \item \framebox{Forth} ist analog.\\
                     \end{itemize}%}}}
             \end{itemize}
+        \item d)\\
+            $\overset{A1, Blatt6}{\Rightarrow} \text{ T vollständig } \Leftrightarrow$ je zwei Modelle von T sind elementar äquivalent.\\
+            \\Seien also $\mathcal{M}_1 \vDash T, \mathcal{M}_2 \vDash T$ Modelle\\
+            $\overset{b)}{\Rightarrow} \mathcal{M}_1 \preceq \mathcal{N}_1, \mathcal{M}_2 \preceq \mathcal{N}_2$\\
+            $\overset{c)}{\Rightarrow} \mathcal{M}_1 \equiv \mathcal{N}_1 \equiv \mathcal{N}_2 \equiv \mathcal{M}_2$\\
+            $\Rightarrow$ T ist vollständig.\\
     \end{itemize}
 %}}}
 
