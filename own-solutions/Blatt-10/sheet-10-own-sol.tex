@@ -146,14 +146,18 @@ Hier ist vieles sehr genau und verständlich erklärt.%}}}
 
     \begin{itemize}
         \item a)\\
-            \underline{Annahme:} Sei $\alpha(x,y) = \alpha(x',y')$, aber $x+y < x'+y'$\\
-            \\$\Leftrightarrow \binom{x+y+1}{2} + x = \binom{x'+y'+1}{2} + x'$\\
-            $\Leftrightarrow 1 + \dots + (x+y) + x = 1 + \dots + (x'+y') + x'$\\
-            $\overset{x+y < x'+y'}{\Rightarrow} 0 = (x + y + 1) + \dots + (x' + y') + x' - x$\\
-            \\Widerspruch $\Rightarrow x + y = x' + y'$\\
-            \\$\Rightarrow 1+\dots+(x+y)+x = 1+\dots+(x+y)+x'$\\
-            $\Leftrightarrow x = x'$\\
-            $\Rightarrow y = y'$\\
+            \underline{Gegenannahme:} Sei $\alpha(x,y) = \alpha(x',y')$, aber $(x,y) \neq (x',y')$\\
+            \begin{itemize}
+                \item und x+y = x'+y'\\
+                    $\Rightarrow \alpha(x,y) = \binom{x+y+1}{2} + x = \binom{x'+y'+1}{2} + x' = \alpha(x',y')$\\
+                    $\Leftrightarrow x = x' \Rightarrow y = y'$ Widerspruch!
+                \item und $x+y < x'+y'$\\
+                    \\$\Leftrightarrow \alpha(x,y) = \binom{x+y+1}{2} + x = \binom{x'+y'+1}{2} + x' = \alpha(x,y)$\\
+                    $\Leftrightarrow 1 + \dots + (x+y) + x = 1 + \dots + (x'+y') + x'$\\
+                    $\overset{x+y < x'+y'}{\Rightarrow} x = (x + y + 1) + \dots + (x' + y') + x'$\\
+                    \\Widerspruch!\\
+            \end{itemize}
+            $\Rightarrow \alpha$ ist injektiv.\\
         
         \item b)\\
             Wir zeigen via Induktion über $n \in \mathds{N}$\\
