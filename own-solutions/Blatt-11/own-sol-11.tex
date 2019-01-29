@@ -11,6 +11,7 @@
 \usepackage{mathabx}
 \usepackage{mathrsfs}
 \usepackage{dsfont}
+\usepackage{wasysym}
 \usepackage{graphicx}
 \usepackage{fancyhdr}
 \usepackage{lastpage}
@@ -164,7 +165,7 @@ Hier ist vieles sehr genau und verständlich erklärt.
     \end{figure}
 
 
-\section*{}
+\section*{}%{{{
 \label{sec:aufgabe_4}
 
     \begin{figure}[H]
@@ -172,6 +173,23 @@ Hier ist vieles sehr genau und verständlich erklärt.
         \label{fig:}
     \end{figure}
 
-    
+    Zunächst einige Vorüberlegungen:\\
+    \\A ist einfach, wenn:\\
+    \begin{itemize}
+        \item A rekursiv aufzählbar (nicht rekursiv!)\\
+        \item $ \mathds{N}\backslash A$ unendlich\\
+        \item $\nexists M \subset_{unendlich} \mathds{N} \backslash A:$ M rekursiv aufzählbar\\
+    \end{itemize}
+    $\Rightarrow$ A ist nicht rekursiv, sonst wäre $ \mathds{N} \backslash A$ rekursiv aufzählbar, woraus folgen würde:\\
+    $M = \mathds{N} \backslash A \subset \mathds{N} \backslash A$ ist rekursiv aufzählbar \lightning\\
+    \\Wir nehmen nun an, dass B rekursiv ist und führen dies zum Wiederspruch.\\
+    Es gilt: $\chi_B(n) = \xi_{A\backslash \{0\}}(n+1)$\\
+
+    \begin{itemize}
+        \item Fall 1: $A = A \backslash \{0\} \Rightarrow$ A rekursiv \lightning\\
+        \item Fall 2: $A = A \backslash \{0\} \cup  \{0\}$\\
+            $A \backslash \{0\}, \cup \text{ und } \{0\}$ sind rekursiv.\\
+            $\Rightarrow$ A ist rekursiv \lightning\\
+    \end{itemize}%}}}
 
 \end{document}
