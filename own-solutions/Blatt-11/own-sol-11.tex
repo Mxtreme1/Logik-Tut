@@ -164,6 +164,52 @@ Hier ist vieles sehr genau und verständlich erklärt.
         \label{fig:}
     \end{figure}
 
+    \begin{itemize}
+        \item a)\\
+            $T =\\
+            \{\forall x \neg x < x\} \cup \\
+            \{\forall x,y,z ((x < y \land y < z) \rightarrow x <z)\} \cup \\
+            \{\forall x,y (x < y \lor x \doteq y \lor y < x)\} \cup \\
+            \{\forall x,y (x < y \rightarrow \exists z (x<z \land z < y))\} \cup \\
+            \{\forall x \exists y (x < y)\} \cup \\
+            \{\forall x \exists z (z < x)\}\\$
+            \\T ist endlich und daher auch endlich axiomatisierbar.\\
+        \item b)\\
+            \begin{itemize}
+                \item S ist nichtleer\\
+                    Sei $a \in A \text{ und } b \in B$, dann ist $a \mapsto b$ in S.\\
+                \item S ist Back \& Forth-System
+                    \framebox{Back}\\
+                    Sei F in S und $b' \in B\backslash Im(F)$\\
+                    Wir unterscheiden die folgenden Fälle:\\
+                    \begin{itemize}
+                        \item Fall 1: $b' > F(a), \forall a \in Dom(F):\\
+                            \text{Dann suche ein }a' \in A: a' > a, \forall a \in Dom(F) \text{ (Geht immer, da keine Endpunkte)}\\
+                            \text{ und bilde wie folgt ab: } a' \mapsto b'$\\
+                        \item Fall 2: $b' < F(a), \forall a \in Dom(F)$ ist analog.\\
+                        \item Fall 3: Sonst\\
+                            Gelten die beiden Fälle, gibt es kleinere und größere Elemente als b'.\\
+                            Wir wählen $a_1,a_2 \in Dom(F) \text{ so, dass gilt: } F(a_1) < b' < F(a_2)$\\
+                            und $F(a_1)$ möglichst groß und $F(a_2)$ möglichst klein ist.\\
+                            Dann wähle $a' \in A (=A\backslash Dom(F)): a_1 < a' < a_2$ (Geht immer, da dicht)\\
+                            Und bilde $a' \mapsto b'$ ab.\\
+                    \end{itemize}
+                    \framebox{Forth} ist analog.\\
+            \end{itemize}
+            Damit sind alle Modelle elementar äquivalent $\Rightarrow$ T ist vollständig.\\
+        \item c)\\
+            Endlich axiomatisierbare Theorien sind rekursiv axiomatisierbar.\\
+            $\overset{Korollar 3.33}{\Rightarrow}$ T ist entscheidbar, da vollständig (b)).\\
+
+            \begin{figure}[H]
+                \centering
+                \includegraphics[scale=0.3]{./K-3-33.png}
+                \caption{Korollar 3.33}
+                \label{fig:./K-3-33}
+            \end{figure}
+            
+
+    \end{itemize}
 
 \section*{}%{{{
 \label{sec:aufgabe_4}
@@ -183,7 +229,7 @@ Hier ist vieles sehr genau und verständlich erklärt.
     $\Rightarrow$ A ist nicht rekursiv, sonst wäre $ \mathds{N} \backslash A$ rekursiv aufzählbar, woraus folgen würde:\\
     $M = \mathds{N} \backslash A \subset \mathds{N} \backslash A$ ist rekursiv aufzählbar \lightning\\
     \\Wir nehmen nun an, dass B rekursiv ist und führen dies zum Wiederspruch.\\
-    Es gilt: $\chi_B(n) = \xi_{A\backslash \{0\}}(n+1)$\\
+    Es gilt: $\chi_B(n) = \chi_{A\backslash \{0\}}(n+1)$\\
 
     \begin{itemize}
         \item Fall 1: $A = A \backslash \{0\} \Rightarrow$ A rekursiv \lightning\\
