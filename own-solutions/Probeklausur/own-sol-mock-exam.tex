@@ -80,7 +80,7 @@ Hier ist vieles sehr genau und verständlich erklärt.
                 \item $\{\lceil \varphi \rceil | T \vdash \neg \varphi\}$\\
                     $= \{\lceil \varphi \rceil | \varphi \text{ Aussage}\} \cap \{n \in \mathds{N} | f(n) \in \{\lceil \varphi \rceil | T \vdash \varphi\}\}$\\
                     Wobei $f: \mathds{N} \rightarrow \mathds{N}, \text{ rekursiv mit } f(\lceil \varphi \rceil) = \lceil \neg \varphi \rceil$\\
-                    Die Aussagen, deren Negat in T wahr ist.\\
+                    \\Die Aussagen, deren Negat in T wahr ist.\\
                     \\Wir wissen bereits, dass $\{\lceil \varphi \rceil | \varphi \text{ Aussage}\}$ rekursiv aufzählbar ist, fehlt also nur noch:\\
                     \\$M = \{n \in \mathds{N} | f(n) \in \{\lceil \varphi \rceil | T \vdash \varphi\}\}$\\
                     \\Nach Lemma 3.22 (\ref{fig:./L-3-22}) müssen wir nur eine Fkt. $x: \mathds{N} \rightarrow \mathds{N}$ finden,\\
@@ -98,7 +98,7 @@ Hier ist vieles sehr genau und verständlich erklärt.
                     \\$Im(h) = M = \{n \in \mathds{N} | f(n) \in \{\lceil \varphi \rceil | T \vdash \varphi\}\}$, da:\\
                     \begin{itemize}
                         \item $\psi \in M$\\
-                        \item n nur im Bild ist, wenn $\neg f(n) \in Img(g) = \{\lceil \varphi \rceil | T \vdash \varphi\}$ und damit
+                        \item n nur im Bild ist, wenn $f(n) \in Img(g) = \{\lceil \varphi \rceil | T \vdash \varphi\}$ und damit
                     $n \in M = \{n \in \mathds{N} | f(n) \in \{\lceil \varphi \rceil | T \vdash \varphi\}\}$.\\
                     \end{itemize}
                     Allerdings muss für die Fkt. $x$ gelten, dass $x: \mathds{N} \rightarrow \mathds{N}$, aber $h: \mathds{N}^2 \rightarrow \mathds{N}$\\
